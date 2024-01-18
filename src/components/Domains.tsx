@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Domains = () => {
   return (
-    <div className="px-4 md:px-10 lg:px-20 mt-48">
+    <div id="domain-section" className="px-4 md:px-10 lg:px-20 mt-48">
       <div className="flex gap-9 items-center">
         <div className="h-[1px] w-full bg-black"></div>
-        <span className=" lg:tracking-[-3px] uppercase font-bold text-2xl md:text-4xl lg:text-5xl bg-recruitment-text bg-clip-text text-transparent">
+        <span className=" lg:tracking-[-1px] uppercase font-bold text-2xl md:text-4xl lg:text-5xl bg-recruitment-text bg-clip-text text-transparent">
           Domains
         </span>
         <div className="h-[1px] w-full bg-black"></div>
@@ -33,7 +33,7 @@ function DomainCard({
   logo?: string;
 }): JSX.Element {
   return (
-    <div className="border-4 border-black hover:border-[#0130FF] group rounded-2xl overflow-hidden w-[90%] md:w-[32%] max-w-md min-w-[200px] md:min-w-[255px] lg:max-w-sm transition-colors duration-300">
+    <div className="border-4 border-black hover:border-[#0130FF] group rounded-2xl overflow-hidden w-[90%] md:w-[32%] max-w-md min-w-[200px] md:min-w-[300px] lg:max-w-sm transition-colors duration-300">
       <h1 className="text-xl md:text-2xl lg:text-3xl uppercase font-bold pl-3 pr-6 py-2 md:py-4 lg:py-7 md:px-4 xl:px-8 text-start group-hover:text-[#0130FF] transition-colors duration-200">{title}</h1>
       <div className="flex justify-end items-end translate-x-1 translate-y-8">
         <Image src={logo} alt="" width={194} height={194}></Image>

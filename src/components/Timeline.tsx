@@ -2,8 +2,15 @@ import Image from "next/image";
 
 const Timeline = () => {
   return (
-    <div className="pt-48">
-      <div className=" bg-gradient-to-t from-white to-transparent">
+    <div className="lg:pt-48">
+      <div className=" bg-gradient-to-t from-white to-transparent relative z-10">
+        <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent z-[-1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent z-[-1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b blur-md from-white to-transparent z-[-1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b blur-md from-white to-transparent z-[-1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b blur-md from-white to-transparent z-[-1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b blur-md from-white to-transparent z-[-1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b blur-md from-white to-transparent z-[-1]"></div>
         <div className="flex gap-9 items-center px-4 md:px-8 lg:px-16">
           <div className="h-[1px] w-full bg-black"></div>
           <span className="lg:tracking-[-3px] uppercase font-bold text-2xl md:text-4xl lg:text-5xl bg-recruitment-text bg-clip-text text-transparent">

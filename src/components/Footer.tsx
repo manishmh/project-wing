@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-end justify-between ">
-        <div className="pb-1 md:pb-2 lg:pb-3 pl-4 px-4 text-sm md:text-xl font-medium text-gray-600 ">@2023-2024 projectwingxmlsa@copyright</div>
+        <div className="pb-1 md:pb-2 lg:pb-3 pl-4 px-4 text-xs md:text-xl font-medium text-gray-600 ">@2023-2024 projectwingxmlsa@copyright</div>
         <h1 className="uppercase text-[9.8vw] md:tracking-[-5px] font-bold leading-none bg-recruitment-text bg-clip-text text-transparent">ruitment</h1>
       </div>
     </>
